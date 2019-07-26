@@ -1,0 +1,27 @@
+.grd{
+	position: relative;
+}
+#distime{
+	position: absolute;
+ 	top:22%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ 	font-size: 7em;
+ 	background-image: linear-gradient(to top,rgb(0, 0, 0,0.9) 0%,rgb(92, 92, 92,0.7) 100%);
+ 	border-radius: 20px;
+ 	padding: 0 .3em;
+
+}
+#distime_2{
+	font-size: .5em;
+	padding-left: .2em;
+}
+#alert_task{
+	position: absolute;
+	bottom: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#clrbtn{
+	margin-left: 2em;
+}

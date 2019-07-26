@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Timer</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/timer.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center ">
+			<div class="col-sm-6 bg-dark rounded">
+				<h4 class="text-light text-center">Timer</h4>
+				<div class="container grd">
+					<img src="images/land_1.jpg" alt="land" class="img-fluid rounded">
+					<h2 id="distime" class="text-light mb-0"><span id="distime_1" class="text-light"></span><span id="distime_2" class="text-light"></span></h2>
+					
+					<h3 id="alert_task" class="text-light">Have a nice day!</h3>
+				</div>
+				<div class="form-group row justify-content-center mt-4">
+					<input type="number" min="0" max="23" id="taskhour"><span class="text-light">HH&nbsp&nbsp&nbsp</span>
+					<input type="number" min="0" max="59" id="taskminute"><span class="text-light">MM</span>
+				</div>
+				<div class="form-group row justify-content-center">
+					<label for="task" class="text-light mr-2">Task:</label>
+					<input type="text" id="task">
+				</div>
+				<div class="row justify-content-center pb-4">
+					<input type="button" value="SET" class="btn btn-warning" id="setbtn">
+					<input type="button" value="Clear" class="btn btn-secondary" id="clrbtn">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script src="js/timer.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.Blog_page
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.Blog_page a 
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.Blog_page a:hover
+{
+    padding: 2px;
+    color: #d86f09;
+}
+
+.Blog_page .title h2 
+{
+    font-weight: normal;
+    font-size: 29px;
+    margin-bottom:  0px;
+}
+
+.Blog_page .blog_item
+{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.new
+{
+    width: 100%;
+}

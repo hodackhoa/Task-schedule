@@ -1,0 +1,42 @@
+.parentSlide{
+	position: relative;
+	display: grid;
+	grid-template-columns: 15% 1fr 15%;
+}
+.slideProduct{
+	position: relative;
+	width: 100%;
+	grid-column: 2/3;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.productInf{
+	display: none;
+	text-align: center;
+}
+.productInf img{
+	max-width: 60%;
+}
+.productInf button{
+	width: 50%;
+	height: 30px;
+	background-color: black;
+	color: white;
+	border: none;
+	transition: .3s;
+	outline: none;
+}
+.arrowSlide:hover{
+	color: #e6ae48;
+}
+.slideProduct .productInf:hover>p{
+	color: #e6ae48;
+}
+.productInf:hover> button{
+	cursor: pointer;
+	background-color: #e6ae48;
+	font-style: Times New Roman;
+}
+.productInf button:active{
+	background-color: #ae7917;
+}

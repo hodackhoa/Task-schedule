@@ -1,0 +1,111 @@
+.register .form-Register{
+	width: 70%;
+	margin: 3em auto;
+	display: grid;
+	grid-template-rows: 2;
+	grid-template-columns: repeat(2,1fr);
+	font-family: Times New Roman;
+}
+.register .form-Register h2{
+	margin: 0;
+	font-weight: normal;
+}
+.register .form-Register h3{
+	margin: 0 0 2em;
+	font-weight: normal;
+}
+.register .form-Register h5{
+	margin: 1em 0;
+	font-family: arial;
+	font-weight: normal;
+}
+.register .form-Register #title_Register{
+	padding: 0 0 1em;
+}
+.register .form-Register button{
+	background-color: black;
+	color: white;
+	outline: none;
+	border: none;
+	transition: .2s;
+	font-family: Times New Roman;
+}
+.register .form-Register #btn_Register{
+	justify-self: end;
+}
+.register .form-Register #btn_Register button{
+	width: 11em;
+	height: 2.5em;
+}
+.register .form-Register button:hover{
+	background-color: #e6ae48;
+}
+.register .form-Register #content_Register{
+	grid-row: 2;
+	grid-column: 1/3;
+	border: 2px solid #e9e9e9;
+	padding: 2.5em 3.5em;
+}
+
+
+
+.register #labelForget{
+	width: auto;
+}
+.register .form-Register #forgetPass{
+	width: auto;
+}
+.register .form-Register #content_formLogin button{
+	width: 8em;
+	height: 1.8em;
+}
+.register .form-Register form{
+	margin-top: 2em;
+}
+.formGr{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	padding: 0 !important;
+	margin-bottom: 1.5em;
+}
+.formGr input{
+	min-width: 100%;
+	height: 1.5em;
+	border: 0.1em solid #e7e7e7;
+}
+
+.formGr label
+{
+	width: 6em;
+	display: inline-block;
+}
+.formGr:nth-child(7) label
+{
+	width: 10em;
+}
+
+.checkbox
+{
+	margin: 0 0 1.5em 11%;
+}
+
+.send_Return 
+{
+	display: flex;
+	float: right;
+}
+
+.send_Return button
+{
+	padding: 5px 15px 5px 15px;
+	margin-left: 5px;
+}
+
+.validation 
+{
+  display:none;
+  margin: 0;
+  font-weight:400;
+  font-size:15px;
+  color: red;
+}

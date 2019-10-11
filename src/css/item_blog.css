@@ -1,0 +1,48 @@
+
+.new
+{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto; 
+}
+
+.new img
+{
+    max-width: 90% ;
+}
+
+
+.new h5
+{
+    text-align: left;
+    font-size: 13pt;
+    color: #303030;
+    font-family: 'Times New Roman';
+    font-weight: normal;
+    margin-bottom: -5px;
+}
+
+.new span
+{
+    color: #c1c1c1;
+    font-size: 8pt;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.new p
+{
+    font-size: 10pt;
+    color: #bababa;
+    text-align: left;
+}
+
+.new a
+{
+    text-decoration: none;
+    font-size: 12pt;
+    color: #bababa;
+    text-align: left;
+}
+
+

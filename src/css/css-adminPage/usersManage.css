@@ -1,0 +1,30 @@
+.usersManage-main{
+	width: auto;
+	padding: 2em 5%;
+}
+	#list-usersManage{
+		margin: 2em 0;
+	}
+		.users-admin{
+			display: grid;
+			grid-template-columns: 30% 30% 20% 20%;
+			background-color: white;
+			padding: .6em 1em;
+			border-radius: 2px;
+			box-shadow: 2px 2px 5px #afafaf;
+			margin-bottom: .5em;
+		}
+			.usersAdmin-child{
+				align-self: center;
+			}
+			#btn-usersAdmin{
+				text-align: center;
+			}
+			#btn-usersAdmin button{
+				width: 80%;
+				padding: .5em 0;
+				border-radius: 3px;
+			}
+			#btn-usersAdmin button:hover{
+				background-color: #e81a1a;
+			}

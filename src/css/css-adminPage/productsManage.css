@@ -1,0 +1,80 @@
+.productsManage-main{
+	width: auto;
+	padding: 2em 5%;
+	background-color: #e1e1e1;
+}
+	#addProduct{
+
+	}
+		#addProduct .formEditPro {
+			background-color: white;
+			border-radius: 5px;
+			margin-top: 2em;
+		}
+		#addProduct button{
+			padding: .5em 2em;
+			border-radius: 3px;
+		}
+	#listPro-admin{
+		margin: 2em 0;
+	}
+		.product-admin{
+			display: grid;
+			grid-template-columns: 15% repeat(2, 1fr) 15%;
+			grid-column-gap: 2em;
+			border-bottom: 1px solid #e1e1e1;
+			background-color: white;
+			padding: .3em 1em;
+			border-radius: 2px;
+			box-shadow: 2px 2px 5px #afafaf;
+			margin-bottom: .5em;
+		}
+		.productAdmin-child{
+			align-self: center;
+		}
+		.productAdmin-child img{
+			margin: 0 2em;
+		}
+		.product-admin #btn-grAction{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.product-admin div:nth-of-type(4) button{
+			width: 80%;
+			padding: .5em 0;
+			border-radius: 3px;
+			background-color: #e5b249;
+		}
+		.product-admin div:nth-of-type(4) button:hover{
+			background-color: #c58920;
+		}
+		.product-admin div:nth-of-type(4) button:nth-of-type(2){
+			background-color: black;
+		}
+		.product-admin div:nth-of-type(4) button:nth-of-type(2):hover{
+			background-color: #e81a1a;
+		}
+		.proNameSty{
+			color: #005c8c;
+		}
+		.formEditPro{
+			grid-column: 1/5;
+			grid-row: 2;
+			padding: 2em 2em;
+		}
+		.formEditPro label{
+			width: 12em !important;
+		}
+		.formEditPro button{
+			width: 20%;
+			padding: .5em 0;
+			border-radius: 3px;
+		}
+		.formEditPro textarea{
+			height: 5em;
+			font-family: arial;
+		}
+		.formEditPro select{
+			width: 10em;
+		}

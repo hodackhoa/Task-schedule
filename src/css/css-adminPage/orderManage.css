@@ -1,0 +1,68 @@
+.orderManage-main{
+	width: auto;
+	padding: 2em 5%;
+}
+	#infor-orderManage{
+
+	}
+		#infor-orderManage select{
+			padding: .2em 0;
+			font-size: 1em;
+		}
+	#list-orderManage{
+		margin: 2em 0;
+	}
+		.orders-admin{
+			display: grid;
+			grid-template-columns: 30% 25% 20% 15%;
+			justify-content: center;
+			grid-column-gap: 2em;
+			background-color: white;
+			padding: .6em 1em;
+			border-radius: 2px;
+			box-shadow: 2px 2px 5px #afafaf;
+			margin-bottom: .5em;
+		}
+			.ordersAdmin-details{
+				grid-row: 2;
+				grid-column: 1/5;
+			}
+			.ordersAdmin-child{
+				align-self: center;
+			}
+				#orderChild-details h4{
+					margin: .5em 0;
+					color: #3b9bb8;
+					font-weight: normal;
+					transition: .3s;
+				}
+				#orderChild-details h4:hover{
+					text-decoration: underline;
+					cursor: pointer;
+				}
+			#btn-ordersAdmin{
+				display: grid;
+				grid-template-rows: auto;
+				grid-row-gap: .8em;
+			}
+			#btn-ordersAdmin button{
+				width: 80%;
+				padding: .5em 0;
+				border-radius: 3px;
+				justify-self: center;
+			}
+			#btn-ordersAdmin #btn-confirmCheckout{
+				background-color:  #e5b249;
+			}
+			#btn-ordersAdmin #btn-confirmCheckout:hover{
+				background-color:  #c58920;
+			}
+			#btn-ordersAdmin #btn-cancelOrder:hover{
+				background-color:  #e81a1a;
+			}
+			#infor-orderChild h4{
+				margin: .5em 0;
+				font-weight: lighter;
+				font-style: italic;
+				color: #6e6e6e;
+			}

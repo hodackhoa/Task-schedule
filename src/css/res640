@@ -1,0 +1,392 @@
+@media screen and (max-width: 640px)
+{
+/*responsive for Home!important;*/
+
+	/*responsive for heared!important;*/
+	.NavRegister
+	{
+		grid-template-columns: 15% 1fr 15%!important;
+	}
+
+	.NavRegister ul
+	{
+		grid-column: 1/3!important;
+	}
+	
+	#search
+	{
+		grid-column: 4/4!important;
+	}
+	.slideText h1
+	{
+		font-size: 100px!important;
+	}
+
+	.slideText span:nth-child(1)
+	{
+		top: 70%!important;
+		font-size: 70px!important;
+	}
+
+	.menubar
+	{
+		grid-template-columns: 15% 14% 1fr!important;
+	}
+
+	.menubar img
+	{
+		grid-column: 1/3!important;
+		max-height: 50px!important;
+	}
+	.menubar nav 
+	{
+		grid-column: 3/3!important;
+		margin: 0 auto!important;
+	}
+
+	.menubar ul a
+	{
+		font-size: 10px!important;
+	}
+	/*responsive for intro!important;*/
+
+	.intro_text img:nth-child(1)
+	{
+		height: 20px!important;
+	}
+
+	.intro_text h4
+	{
+		font-size: 15px!important;
+	}
+
+	.intro_text img
+	{
+		max-width: 80px!important;
+	}
+
+	.intro_text p
+	{
+		font-size: 12px!important;
+		max-width: 50%!important;
+		margin: 0 auto!important;
+		margin-bottom: 2em!important;
+	}
+
+	.intro .container button 
+	{
+		font-size: 8pt!important;
+		padding: 5px 20px!important;
+	}
+	
+	.intro .container .bg_intro .card 
+	{
+		max-width: 80%!important;
+	}
+
+	.intro .container .bg_intro .card .card_img .triangle_left
+	{
+		border-top: 60px solid #e6ae48!important;
+    	border-right: 60px solid transparent!important;
+	}
+
+	.intro .container .bg_intro .card .card_img .triangle_left p
+	{
+		font-size: 10px!important;
+		margin: -45px 14px!important;
+	}
+
+	.intro .container .bg_intro .card .card_intro h5
+	{
+		font-size: 20px!important;
+	}
+
+	.intro .container .bg_intro .card .card_intro img
+	{
+		margin-bottom: 0px!important;
+	}
+
+	.intro .container .bg_intro .card .card_intro span
+	{
+		font-size: 20px!important;
+	}
+
+	.intro .container .bg_intro .card .card_intro button
+	{
+		margin: 10px 0 !important;
+	}
+
+	.intro .container .bg_intro .card .card_intro p
+	{
+		font-size: 13px!important;
+	}
+	
+	.intro .container .bg_intro .card .card_intro table 
+	{
+		margin: 0 auto
+	}
+
+	/*responsive for slider!important;*/
+
+	.parentSlide
+	{
+		grid-template-columns: 5% 1fr 5%!important;
+	}
+	
+	.productInf .rectang3
+	{
+	  		width: 48px !important;
+	  		height: 48px !important;
+	}
+
+	.productInf .rectang2
+	{
+	  		width: 45px !important;
+	  		height: 45px !important;
+	}
+
+	.productInf .rectang
+	{
+	  		width: 40px !important;
+	  		height: 40px !important;
+	}
+	.productInf .rectang h4
+	{
+		font-size: 10px !important;
+		top: 5px !important;
+    	left: 2px !important;
+	}
+
+	.productInf p
+	{
+		font-size: 10px !important;
+	}
+
+	.productInf button 
+	{
+		width: 80%!important;
+	}
+/*responsive for Blog!important;*/
+	.new h5 
+	{
+		font-size: 10px
+	}
+
+	.new span
+	{
+		font-size: 8px!important;
+	}
+
+	.new p
+	{
+		font-size: 9px!important;
+	}
+
+	.new a
+	{
+		font-size: 9px!important;
+	}
+
+	.card_blog .user p 
+	{
+		font-size: 9px!important;
+	}
+
+	.card_blog .user a
+	{
+		font-size: 9px
+	}
+
+	.card_blog .user .img img
+	{
+		margin: 0.5em 40%!important;
+		max-width: 40px!important;
+	}
+
+	.card_blog .user h5 
+	{
+		font-size: 10px!important;
+		margin-top: 0px!important;
+	}
+
+	/*responsive for logo and Footer!important;*/
+
+	.logo
+	{
+		margin-top: 1.5em!important;
+	}
+
+	.footer .footer_text h5
+	{
+		font-size: 10px!important;
+		margin: 1em 0!important;
+	}
+
+	.footer .footer_text h6 
+	{
+		margin-bottom: -1.5em!important;  
+		margin-top: 1.5em!important;
+	}
+	.footer .footer_text a 
+	{
+		font-size: 7px!important;
+	}
+
+	.footer .footer_text .email span
+	{
+		font-size: 10px!important;
+	}
+
+	.footer .footer_text .email input
+	{
+		padding: 2px!important;
+	    margin-top: 1em!important;
+	    width: 65%!important;
+	}
+
+	.footer .footer_text .email button 
+	{
+		padding: 2px!important;
+	    width: 25%!important;
+	}
+
+	.footer .footer_icon .row p
+	{
+		font-size: 7px!important;
+	}
+
+	.contact p
+	{
+		font-size: 9px!important;
+	}
+	.row img
+	{
+		max-width: 20px!important;
+	}
+	.footer .footer_icon ul li
+	{
+		margin-top: 0.5em!important;
+	}
+
+/*responsive for Products!important;*/
+	.listText h4
+	{
+		font-size: 9px!important;
+	}
+	
+	.listText img
+	{
+		max-width: 2em !important;
+		margin-top: 0px !important;
+		margin-bottom: 10px !important;
+	}
+
+	.listText ul
+	{
+		font-size: 9px!important;
+		margin-top: 0px!important;
+	}
+
+	.listText p 
+	{
+		margin-top: 0px!important;
+		margin-bottom: 5px !important;
+	}
+
+	.listText .tag .item_tag button 
+	{
+		padding: 0 !important;
+		margin: 0 5px !important;
+	}
+
+	.item_tag
+	{
+		margin-bottom: 1em!important;
+	}
+
+	.img_R img
+	{
+		max-width: 100% !important;
+	}
+/*responsive for Infro!important;*/
+
+	
+	.introduce i
+	{
+		font-size: 9px!important;
+	}
+	.introduce h2
+	{
+		font-size: 13px!important;
+	}
+	
+	.introduce .img_para .para p
+	{
+		font-size: 10px!important;
+	}
+/*responsive for Blog!important;*/
+
+	.Blog_page 
+	{
+		margin-top: 0.5em!important;
+	}
+	.Blog_page i
+	{
+		font-size: 9px!important;
+	}
+
+	.Blog_page .title h2
+	{
+		font-size: 13px!important;
+	}
+	.Blog_page .title img
+	{
+		max-width: 30px!important;
+		margin-bottom: 0.7em!important;
+	}
+
+	/*responsive for Contact!important;*/
+
+	.Contact_page .title
+	{
+		margin-top: 0.5em!important;
+	}
+	.Contact_page .title i
+	{
+		font-size: 11px!important;
+	}
+	.Contact_page .title h2
+	{
+		font-size: 14px!important;
+	}
+
+	.Contact_page .title img
+	{
+		max-width: 50px!important;
+	}
+
+	.img_form .img img
+	{
+		max-width: 300px!important;
+	}
+
+	.add p
+	{
+		font-size: 13px!important;
+	}
+
+	.Contact_page .img_form .form button 
+	{
+		margin-left: 7em!important;
+	}
+	.listSearch{
+		width: auto !important;
+		margin: 2em 10% !important;
+	}
+	.search480{
+		display: none;
+	}
+	..menubar480{
+		display: none;
+	}
+}

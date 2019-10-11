@@ -1,0 +1,101 @@
+.overlayPopup{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	font-family: sans-serif;
+}
+.messageCart{
+	position: fixed;
+	top: 3%;
+	right: 3%;
+	width: 3em;
+	height: 3em;
+	background-color: #007de3;
+	color: white;
+	border-radius: 50% 50%;
+	text-align: center;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.4);
+	transition: .3s;
+	outline: none;
+	border :none;
+}
+.messageCart:hover{
+	cursor: pointer;
+	background-color: #1e97fa;
+	width: 4em;
+	height: 4em;
+}
+.messageCart:active{
+	background-color: #085696;
+}
+.messageCart svg{
+	font-size: 2em;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.messageCart #popUpNum{
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	width: 1.2em;
+	height: 1.2em;
+	background-color: red;
+	border-radius: 50% 50%;
+}
+.messageCart #popUpNum p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	font-size: .7em;
+}
+#popUp_login{
+	position: absolute;
+	top:20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20%;
+	margin: 0 auto;
+	padding: 3em 3em;
+	background-color: white;
+	display: grid;
+	grid-auto-rows: auto repeat(2,1fr);
+	grid-row-gap: 1em;
+	border-radius: 5px;
+	box-shadow: 3px 3px 20px rgba(0,0,0,.5);
+}
+#popUp_login h3{
+	margin: 0;
+}
+#popUp_login button{
+	width: 100%;
+	height: 3em;
+	outline: none;
+	border: none;
+	color: white;
+	transition: .3s;
+}
+#popUp_login #btn-loginPopup{
+	background-color: #00577d;
+}
+#popUp_login #btn-loginPopup:hover{
+	background-color: #1490c7;
+}
+#popUp_login #btn-loginPopup:active{
+	background-color: #155673; 
+}
+#popUp_login #btn-reisterPopup{
+	background-color: #000000; 
+}
+#popUp_login #btn-reisterPopup:hover{
+	background-color: #e6ae48;
+}
+#popUp_login #btn-reisterPopup:active{
+	background-color: #b37607; 
+}

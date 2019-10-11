@@ -1,0 +1,85 @@
+.Contact_page
+{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    font-family: Times New Roman;
+    grid-gap: 2em;
+}
+
+.Contact_page .title
+{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1;
+    margin-top: 2em;
+}
+
+.Contact_page .title a
+{   
+    margin-top: 2em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Contact_page .title a:hover 
+{
+    padding: 2px; 
+    color: #d86f09;
+}
+
+.Contact_page .title h2
+{
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.Contact_page .img_form
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2em;
+}
+
+.Contact_page .img_form .form .formGr:nth-child(4) input
+{
+    height: 10em;
+}
+
+.Contact_page .img_form .form button
+{
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 15px;
+    margin-left: 12%;
+}
+
+.Contact_page .img_form .form button:hover
+{
+    background-color: #d86f09;
+}
+
+.Contact_page .address
+{
+    font-family: Times New Roman;
+    color: #818181;    
+}
+
+.Contact_page .address a
+{
+    color: #d86f09;
+}
+
+.Contact_page .address ul
+{
+    list-style-type:none;
+    padding: 0;
+}
+
+
+.Contact_page .address li
+{
+    display: inline-block;
+    margin-right: 5%;
+}

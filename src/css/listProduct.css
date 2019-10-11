@@ -1,0 +1,99 @@
+.listProduct{
+	display: grid;
+	grid-template-columns: 15% 15% 1fr 15%;
+	grid-template-rows: 2;
+}
+.listProduct img{
+	grid-row: 1;
+	grid-column: 2/4;
+}
+.listProduct #bgImg1{
+	max-width: 100%;
+}
+.listText{
+	grid-column: 2/3;
+	grid-row: 2;
+}
+.listText h4
+{
+	margin: 0;
+	font-weight: normal;
+}
+
+.listText img
+{
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+.listText ul{
+	list-style: none;
+	padding-left: 0;
+}
+.listText ul a{
+	text-decoration: none;
+	color: #818181;
+}
+.listText ul ul li:hover{
+	cursor: pointer;
+	list-style: disc;
+	color: #e6ae48;
+	margin-left: 1em;
+}
+.listText ul a:hover{
+	color: #e6ae48;
+}
+
+.listText p
+{
+	color:  #818181;
+	font-size: 9pt;
+	margin-bottom: 2em;
+}
+.listText .tag .item_tag button
+{
+	border: 1px solid #818181;
+	background-color: #fff;
+	padding: 5px;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	color: #818181;
+}
+
+.listText .tag .item_tag button:hover
+{
+	background-color: #e6ae48;
+	color: #fff;
+}
+
+.products{
+	grid-column: 3/4;
+	grid-row: 2;
+}
+
+.products .listMesh{
+	display: grid;
+	grid-template-rows: repeat(3,1fr);
+	grid-template-columns: repeat(3,1fr);
+}
+.products .productInf{
+	position: relative;
+	align-self: center;
+	justify-self: center;
+	width: 100%;
+	transition: .3s;
+	display: block;
+}
+.products .productInf:hover{
+	cursor: pointer;
+	width: 90%;
+}
+.products .productInf p{
+	transition: .3s;
+}
+.products .productInf:hover>p{
+	color: #e6ae48;
+	
+}
+.img_R img{
+	max-width: 100%;
+}

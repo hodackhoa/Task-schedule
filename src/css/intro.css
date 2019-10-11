@@ -1,0 +1,211 @@
+
+.intro
+{
+    background-image: url('../images/01_Home.jpg');
+    background-position: top;
+    background-size: contain;
+    /* background: #fff; */
+    background-repeat: no-repeat;
+}
+
+.intro .container
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.intro_text img:nth-child(1)
+{
+    margin-left: 42%;
+}
+.intro_text p
+{   width: 100%;
+    font-family: "Times New Roman", Times, serif;
+    color: #959595;
+    font-size: 14pt;
+    text-align: center;
+    width: 85%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.intro_text h4 
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 21pt;
+    text-align: center;
+    color: #000000;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.intro .container button
+{
+    ffont-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    background-color: #000000;
+    color: #ffffff;
+    display: block;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    margin: 0 auto;
+}
+
+.intro .container button:hover
+{
+    background-color: #e6ae48
+}
+
+.intro .container .bg_intro
+{
+    margin-bottom: -40%;
+    margin-top: 10%;
+}
+
+
+.intro .container .bg_intro img
+{
+    max-width: 100%;
+}
+
+.intro .container .bg_intro .card
+{   
+    position: relative;
+    background-color: #ffffff;
+    transform: translateY(-65%);
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.intro .container .bg_intro .card .card_img 
+{   
+    transform: translate(15%, 10%);
+}
+
+.intro .container .bg_intro .card .card_img img
+{
+    max-width: 75%;
+}
+
+
+.intro .container .bg_intro .card .card_img .triangle_left
+{
+   position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 80pt solid #e6ae48;
+    border-right: 80pt solid transparent;
+}
+
+.intro .container .bg_intro .card .card_img .triangle_left p
+{
+    transform: rotate(-45deg);
+    margin: -60pt 20px;
+    color: white;
+    font-size: 16pt;
+}
+
+
+
+.intro .container .bg_intro .card .card_intro
+{   
+
+    /* transform: translate(15%,10%); */
+    /* float: right; */
+    /* padding: 76px 50px 0 0; */
+    transform: translateY(10%);
+    text-align: left;
+
+}
+
+.intro .container .bg_intro .card .card_intro h5
+{
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Times New Roman";
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.intro .container .bg_intro .card .card_intro img
+{
+   margin: 0 auto;
+    /* height: 1.5%; */
+    width: auto;
+    margin-bottom: 10%;
+}
+
+.intro .container .bg_intro .card .card_intro span
+{
+    color: #e6ae48;
+    font-family: 'Myriad Pro';
+    font-size: 25pt;
+    font-style: normal;
+    /* width: 20%; */
+    /* margin: 5% 0 10% -20%; */
+    /* float: left; */
+}
+
+
+.intro .container .bg_intro .card .card_intro button
+{
+    /* width: 30%; */
+    font-size: 10pt;
+    margin: 10% 0 ;
+}
+
+.intro .container .bg_intro .card .card_intro p
+{
+    font-family: "Times New Roman", Times, serif;
+    color: #959595;
+    font-size: 14pt;
+    font-style: normal; 
+    width: 70%;
+    margin-top: 10%;
+}
+
+.intro .container .bg_intro .card .card_intro table 
+{
+    border-collapse: collapse;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.intro .container .bg_intro .card .card_intro td
+{
+    width: 200px;
+}
+
+.intro .container .bg_intro .card .card_intro .table span
+{
+    float: none;
+    margin: 0;
+}
+
+
+.intro .container .bg_intro .card .card_intro .table p
+{
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    color:  #e6ae48;
+    text-align: center;
+    margin: 0 0 10% 10%;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

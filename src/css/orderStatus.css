@@ -1,0 +1,169 @@
+.orderStatus-main{
+	width: 70%;
+	margin: 2em auto;
+	display: grid;
+	grid-template-columns: 70% 1fr;
+	font-family: Times New Roman;
+	column-gap: 1em;
+	grid-row-gap: 1em;
+}
+.orS-title{
+	grid-column: 1/3;
+	grid-row: 1;
+}
+.orS-title h2{
+	margin: 0;
+	font-weight: normal;
+}
+.orS-listOrder{
+	grid-column: 1/2;
+	grid-row: 2;
+}
+
+.orS-listOrder a{
+	display: inline-block;
+	margin-bottom: 1.2em;
+	color: #0091b0;
+}
+.orS-listOrder a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.orS-userInf{
+	grid-column: 2/3;
+}
+.orS-order{
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+	grid-template-rows: 2;
+	background-color: #f7f7f7;
+	margin-bottom: .3em;
+	padding: 1em 1em;
+	border: 1px solid #e1e1e1;
+	transition: all 2s linear;
+}
+.orS-order .id h4{
+	margin: .5em 0 0;
+	font-weight: lighter;
+}
+.orS-orderChild{
+	padding: 0 .5em;
+}
+.orS-orderChild-Infor{
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+.orS-orderChild-Infor a{
+	color: #0090c6;
+}
+.orS-orderChild-Infor a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.orS-orderChild-Infor a:active{
+	color: #015d7f;
+}
+.listDetails{
+	grid-column: 1/4;
+	grid-row: 2;
+}
+.orS-orderChild-btn{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.orS-orderChild-btn button{
+	background-color: black;
+	color: white;
+	border: none;
+	outline: none;
+	transition: .3s;
+	width: 80%;
+	height: 2em;
+}
+.orS-orderChild-btn button:hover{
+	cursor: pointer;
+	background-color: #e6ae48;
+}
+.orS-orderChild-btn button:active{
+	background-color: #a86e04;
+}
+.listDetails{
+	display: none;
+}
+.orderDetails{
+	margin-top: 2em;
+}
+.orderDetails table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.orderDetails table th{
+	height: 2em;
+}
+.popupCheckOut{
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	text-align: center;
+	font-family: Times New Roman;
+	padding: 2em 2em;
+	width: 300px;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.popupCheckOut h3{
+	margin-bottom: 1em;
+}
+.checkOut-btnGr{
+	display: flex;
+	justify-content: space-between;
+}
+.popupCheckOut button{
+	width: 10em;
+	height: 2em;
+}
+.btn-childChecked {
+	width: 70% !important;
+}
+.popupCheckOut .btn-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	background-color: black;
+	border: 1px solid black;
+	outline: none;
+	border-radius: 50% 50%;
+	font-size: 1em;
+	color: white;
+}
+.popupCheckOut .btn-close:hover{
+	color: #e6ae48;
+}
+.popupCheckOut .btn-close:active{
+	color: #ae7917;
+}
+.orS-userInf-content{
+	background-color: #fafafa;
+	padding: 1.5em 1em;
+	border: 1px solid #e1e1e1;
+}
+.orS-userInf-content h3 {
+	margin-bottom: 1.5em;
+}
+.orS_grInfAccount{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-column-gap: 1em;
+	margin-bottom: 1em;
+}
+.orS_grInfAccount h4{
+	margin: 0 0 .4em;
+	font-weight: normal;
+}

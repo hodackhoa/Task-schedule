@@ -1,0 +1,36 @@
+.dashBoard-main{
+	margin: 2em 5%;
+	font-family: UTM Caviar;
+}
+.dashBoard-main h2{
+	margin: 0 0 1em;
+	font-family: UVF Didot;
+}
+#inforOverview{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-column-gap: 1em;
+}
+.inforOverview-child{
+	font-family: UTM Caviar;
+	padding: 1em 1em;
+	background-color: #191919;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+	.inforOverview-child h4{
+		font-size: 2em;
+		margin: .4em 0;
+		color: #e7ad49;
+	}
+#chartTopOrder{
+	text-align: center;
+	margin: 3em 0;
+}
+	#chartTopOrder h2{
+	}
+#chartTopOrder .apexcharts-canvas{
+	margin: 0 auto;
+	width: 90%;
+}

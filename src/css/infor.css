@@ -1,0 +1,59 @@
+.introduce 
+{
+	width: 70%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: auto;
+	font-family: Times New Roman;
+}
+
+.introduce a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.introduce a:hover 
+{
+	padding: 1px; 
+	color: #d86f09;
+}
+
+.introduce h2
+{
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+.introduce .title 
+{
+	margin-top: 3%;
+}
+
+.introduce i
+{
+	margin-top: 2%;
+}
+
+.introduce .img_para
+{
+	margin-top: 5%;
+	display: grid;
+	grid-template-columns: 45% 55%;
+	grid-column-gap: 3%;
+}
+
+.introduce .img_para .image img 
+{
+	max-width: 100%;
+}
+
+.introduce .img_para .para p 
+{
+	font-size: 13pt;
+	color: #818181;
+}
+
+
+
+

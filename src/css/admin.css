@@ -1,0 +1,154 @@
+.adminPage{
+
+}
+#loginAdmin{
+	width: 50%;
+	margin: 2em auto;
+	padding: 3em 2em;
+	border: 2px solid #e1e1e1;
+}
+#loginAdmin h3{
+	margin-bottom: 1.5em;
+}
+#loginAdmin button{
+	width: 30%;
+	padding: .5em 2em;
+}
+.adminHeader{
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	display: grid;
+	padding: .5em 0;
+	grid-template-columns: 15% 20% auto 15%;
+}
+	.adminHeader img{
+		grid-column: 2/3;
+		max-height: 100%;
+	}
+	.adminHeader h2{
+		grid-column: 3/4;
+		color: #e7ad49;
+		font-family: UTM aquarelle;
+		font-weight: lighter;
+		margin: 0;
+		align-self: center;
+		font-size: 2em;
+	}
+	.adminHeader #grBtnLogout{
+		align-self: center;
+		display: none;
+	}
+	.adminHeader #grBtnLogout button{
+		background-color: #2d2d2d;
+		padding: .5em 1em;
+		border-radius: 3px;
+	}
+	.adminHeader #grBtnLogout button:hover{
+		background-color: #565656;
+	}
+.adminFooter{
+	background-color: black;
+	padding: 10px 5%;
+	grid-column: 2/3;
+	grid-row: 2;
+	align-self: end;
+	text-align: right;
+	border-left: 2px solid #e7ad49;
+}
+	.adminFooter h3{
+		color: #e7ad49;
+		margin: 0;
+		padding: 1em 2em;
+		font-family: UVF Didot;
+	}
+.tabNavAdmin{
+	display: inline-block;
+	grid-column: 1/2;
+	grid-row: 1/3;
+	background-color: black;
+	transition: .3s;
+	padding-bottom: 5em;
+	min-height: 100vh;
+}
+.tabNavAdmin ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	transition: .3s;
+}
+.tabNavAdmin ul li{
+	cursor: pointer;
+	width: auto;
+	display: block;
+	padding: 1em 2em;
+	color: white;
+	transition: .3s;
+	border-top: 1px solid rgba(231, 173, 73,.2);
+}
+.tabNavAdmin ul li:hover{
+	box-shadow: 0 0 10px rgb(231, 173, 73, 1);
+}
+.admin-Layout{
+	display: grid;
+	grid-template-columns: 15% 1fr;
+	background-color: #e1e1e1;
+}
+	.admin-Layout h2{
+		font-family: UVF Didot;
+		margin: 0 0 1em; 
+	}
+.dashBoard-main{
+	grid-column: 2/3;
+}
+#menu480Admin{
+	background: black;
+	border: 1px solid #e7ad49;
+	outline: none;
+	color: #e7ad49;
+	padding: .2em .4em;
+	border-radius: 5px;
+	display: none;
+}
+#menu480Admin svg{
+	font-size: 1.8em;
+}
+.adminPopup{
+	position : fixed;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20%;
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #404040;
+	text-align: center;
+	padding: 2em 2em;
+}
+	.adminPopup h3{
+		margin-bottom: 1em;
+	}
+	.adminPopup button{
+		width: 30%;
+		transition: .3s;
+		border: none;
+		outline: none;
+		color: white;
+		padding: .5em 0;
+		border-radius: 3px;
+	}
+	#btn-ConfirmAdmin{
+		background-color: #0073df;
+		margin-right: 1em;
+	}
+	#btn-ConfirmAdmin:hover{
+		background-color: #2696ff;
+	}
+	#btn-CancelAdmin{
+		background-color: #676767;
+		margin-left: 1em;
+	}
+	#btn-CancelAdmin:hover{
+		background-color: #c5c5c5;
+		color: black;
+	}
